@@ -182,7 +182,7 @@ h2{
 }
 
 .logo img{
-  width: 100%;
+  width: 40px;
   height: 40px;
 }
 
@@ -336,6 +336,18 @@ h2{
 
 
 @media only screen and (max-width: 1023px) {
+  .photo-title {
+    font-size: 2rem;
+  }
+
+  .photo-title2 {
+    font-size: 0.9rem;
+  }
+
+  .photo-title3 {
+    font-size: 1rem;
+  }
+
   .personal-photo{
     width: 100%;
     margin-left: 0rem;
@@ -345,6 +357,7 @@ h2{
   }
 
   .personal-info, .skill{
+    font-size: 0.9rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -353,6 +366,13 @@ h2{
 
   .skill{
     margin-bottom: 5rem;
+  }
+
+  .personal-info h2,.skill h2{
+    font-size: 1.2rem;
+  }
+  .skill h3{
+    font-size: 0.9rem;
   }
 
   .personal-info h2, .personal-info p{
@@ -375,6 +395,7 @@ h2{
   }
 
   .Edu{
+    font-size: 0.9rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -382,6 +403,7 @@ h2{
   }
 
   .inte, .exp{
+    font-size: 0.9rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -389,6 +411,7 @@ h2{
   }
 
   .Edu h2, .inte h2, .exp h2{
+    font-size: 1.2rem;
     margin-left: 2rem;
     margin-right: 2rem;
   }
@@ -398,6 +421,7 @@ h2{
   }
 
   .Ach{
+    font-size: 0.9rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -405,6 +429,7 @@ h2{
   }
 
   .Ach h2{
+    font-size: 1.2rem;
     margin-left: 2rem;
     margin-right: 2rem;
   }
@@ -415,12 +440,14 @@ h2{
 
 
   .pro, .pub{
+    font-size: 0.9rem;
     width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
 
   .pro h2, .pub h2{
+    font-size: 1.2rem;
     margin-left: 2rem;
     margin-right: 2rem;
   }
